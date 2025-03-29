@@ -1,0 +1,63 @@
+# 🛑 Virtual Environment (Prevents committing dependencies)
+venv/
+newvenv/
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.pdb
+
+# 🚫 Environment Variables (Prevents exposing API keys)
+.env
+*.env
+config.json
+secrets.json
+
+# 📂 Logs & Debug Files
+logs/
+*.log
+debug.log
+
+# 📦 Dependency Management
+Pipfile
+Pipfile.lock
+poetry.lock
+*.egg-info/
+
+# 🔹 Jupyter Notebooks (Checkpoints)
+.ipynb_checkpoints/
+
+# 📄 Compiled Python files
+*.so
+*.c
+*.cpp
+
+# ⚙️ IDE & Editor Specific Files
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.swp
+.DS_Store
+
+# 📁 OS-Specific Files
+Thumbs.db
+desktop.ini
+
+# 🏗️ Build/Dist Files (For packaging, if applicable)
+build/
+dist/
+*.spec
+
+# 🚀 Flask or FastAPI Cache
+instance/
+*.sqlite3
+
+# ⚠️ Ignore Uploaded Documents (If you store PDFs)
+Uploaded_Documents/
+
+# 📊 Ignore Trading Data (If you store logs/results)
+trading_data/
+backtest_results/
+
+venv
